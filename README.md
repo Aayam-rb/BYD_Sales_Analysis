@@ -7,10 +7,11 @@ This repository contains a data analysis and visualization project focused on th
 - **EDA.ipynb**: Jupyter Notebook containing exploratory data analysis (EDA) on BYD sales data.
 - **byd_dashboard.pbix**: Power BI dashboard file visualizing the sales data.
 - **Screenshot.png**: A preview image of the Power BI dashboard.
-- **cleaned_data.csv**: The cleaned dataset used for analysis.
+- **cleaned_data.csv**: The cleaned dataset used for analysis(BYD_Sales_Dataset.csv).
+- **uncleaned_data.csv**: The raw dataset before preprocessing(BYD_Sales.csv).
 
 ## Data Source
-The analysis was conducted using a cleaned CSV dataset (`cleaned_data.csv`) that contains sales data for BYD electric vehicles in Nepal from 2021 to 2024.
+The analysis was conducted using both cleaned (`cleaned_data.csv`) and uncleaned (`uncleaned_data.csv`) CSV datasets that contain sales data for BYD electric vehicles in Nepal from 2021 to 2024.
 
 ## Dashboard Features
 The Power BI dashboard includes:
@@ -25,7 +26,8 @@ The Power BI dashboard includes:
 1. Open `EDA.ipynb` in Jupyter Notebook to explore data insights.
 2. Open `byd_dashboard.pbix` in Power BI to interact with the dashboard.
 3. Use `cleaned_data.csv` as the primary dataset for further analysis.
-4. Modify and enhance the dashboard or analysis as needed.
+4. Refer to `uncleaned_data.csv` for original data before cleaning.
+5. Modify and enhance the dashboard or analysis as needed.
 
 ## Requirements
 - **Jupyter Notebook** (for EDA.ipynb)
@@ -38,3 +40,6 @@ The Power BI dashboard includes:
 
 ## License
 Feel free to use and modify this project for your own data analysis and visualization needs.
+
+## Author
+[Your Name]
